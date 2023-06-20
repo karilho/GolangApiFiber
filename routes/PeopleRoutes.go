@@ -11,4 +11,5 @@ func SetupRoutes(c *fiber.App) {
 	c.Get("/peoples", handlers.ListAll)
 
 	c.Post("/new", handlers.CreateFact)
+
 }

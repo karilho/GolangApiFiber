@@ -20,9 +20,9 @@ var DB Dbinstance
 func ConnectDb() {
 	dsn := fmt.Sprintf(
 		"host=localhost " +
-			"user=root " +
-			"password=root " +
-			"dbname=root " +
+			"user=test " +
+			"password=test " +
+			"dbname=fiber " +
 			"port=5432 " +
 			"sslmode=disable " +
 			"TimeZone=Asia/Shanghai",
